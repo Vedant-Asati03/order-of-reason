@@ -1,1 +1,1 @@
-# order-of-reason
+![order-of-reason-hero-image](/resources/images/OR_banner.png)
