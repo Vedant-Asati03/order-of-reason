@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "videos"
 version = "0.1.0"
@@ -7,3 +11,6 @@ requires-python = ">=3.14"
 dependencies = [
     "manim>=0.19.2",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
