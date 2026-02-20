@@ -1,10 +1,11 @@
-from .colors import Colors
 from manim.animation.creation import Write
 from manim.constants import DOWN, ORIGIN, RIGHT
 from manim.mobject.text.tex_mobject import MathTex
 from manim.mobject.text.text_mobject import Text
 from manim.mobject.types.vectorized_mobject import VGroup
 from manim.scene.scene import Scene
+
+from .colors import Colors
 
 
 class Intro(Scene):
